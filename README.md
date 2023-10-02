@@ -7,7 +7,9 @@ Javascript의 동작 원리를 배우고, 내용을 정리하며 Javascript에 �
 
 ## \*️⃣01-Fundamentals-Part-1
 
-자바스크립트의 기본 문법을 정리합니다.
+자바스크립트의 기본 문법을 정리합니다.<br>
+**😮challenge github =>** https://github.com/thdud2262/Javascript_study/blob/main/01-Fundamentals-Part-1/Challenge.md
+
 
 - Javascript :
   - high Level Language
@@ -19,8 +21,8 @@ Javascript의 동작 원리를 배우고, 내용을 정리하며 Javascript에 �
 - variable (변수)
 - data type (데이터 타입)
 - operator (연산자)
-- ...
 
 ## \*️⃣02-Fundamentals-Part-2
 
-자바스크립트의 함수
+자바스크립트의 함수를 공부합니다.<br>
+**😮challenge github =>** https://github.com/thdud2262/Javascript_study/blob/main/02-Fundamentals/Challenge.md
