@@ -13,3 +13,14 @@ Back to the two gymnastics teams, the Dolphins and the Koalas! There is a new gy
 ### Test data:
 - Data 1: Dolphins score 44, 23 and 71. Koalas score 65, 54 and 49
 - Data 2: Dolphins score 85, 54 and 41. Koalas score 23, 34 and 27
+
+## 🥰Coding Challenge #2
+### Your tasks:
+1. Write a function 'calcTip' that takes any bill value as an input and returns the corresponding tip, calculated based on the rules above (you can check out the code from first tip calculator challenge if you need to). Use the function type you like the most. Test the function using a bill value of 100
+2. And now let's use arrays! So create an array 'bills' containing the test data below
+3. Create an array 'tips' containing the tip value for each bill, calculated from the function you created before
+4. Bonus: Create an array 'total' containing the total values, so the bill + tip
+
+### Test data
+- 125, 555 and 44
+- part-01 challenge에서 배열로 데이터를 만들고 함수를 사용해 결과값을 출력했어서, 이번에는 약간 다르게 문제를 해결함 -> 배열 & map함수를 사용해 데이터 결과 출력
