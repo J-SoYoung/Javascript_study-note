@@ -2,6 +2,7 @@
 
 ## 🥰Coding Challenge #1
 Back to the two gymnastics teams, the Dolphins and the Koalas! There is a new gymnastics discipline, which works differently. Each team competes 3 times, and then the average of the 3 scores is calculated (so one average score per team). 
+<br>
 
 ### Your task is to write some code to help them:
 1. Create an arrow function 'calcAverage' to calculate the average of 3 scores
@@ -13,6 +14,7 @@ Back to the two gymnastics teams, the Dolphins and the Koalas! There is a new gy
 ### Test data:
 - Data 1: Dolphins score 44, 23 and 71. Koalas score 65, 54 and 49
 - Data 2: Dolphins score 85, 54 and 41. Koalas score 23, 34 and 27
+<br>
 
 ## 🥰Coding Challenge #2
 ### Your tasks:
@@ -24,6 +26,7 @@ Back to the two gymnastics teams, the Dolphins and the Koalas! There is a new gy
 ### Test data
 - 125, 555 and 44
 - part-01 challenge에서 배열로 데이터를 만들고 함수를 사용해 결과값을 출력했어서, 이번에는 약간 다르게 문제를 해결함 -> 배열 & map함수를 사용해 데이터 결과 출력
+<br>
 
 ## 🥰Coding Challenge #2
 ### Your tasks:
