@@ -24,3 +24,16 @@ Back to the two gymnastics teams, the Dolphins and the Koalas! There is a new gy
 ### Test data
 - 125, 555 and 44
 - part-01 challenge에서 배열로 데이터를 만들고 함수를 사용해 결과값을 출력했어서, 이번에는 약간 다르게 문제를 해결함 -> 배열 & map함수를 사용해 데이터 결과 출력
+
+## 🥰Coding Challenge #2
+### Your tasks:
+Let's go back to Mark and John comparing their BMIs!<br>
+This time, let's use objects to implement the calculations! Remember: BMI = mass / (height * height) (mass in kg and height in meters).
+
+### Your tasks:
+1. For each of them, create an object with properties for their full name, mass, and height (Mark Miller and John Smith). Name these objects as mark and john, and their properties exactly as fullName, mass and height.
+2. Create a calcBMI method on each object to calculate the BMI (the same method on both objects). Assign the BMI value to a property, and also return it from the method.
+3. Log to the console who has the higher BMI, together with the full name and the respective BMI. Example: "John Smith's BMI (28.3) is higher than Mark Miller's (23.9)!".
+
+### Test data
+- Marks weighs 78 kg and is 1.69 m tall. John weighs 92 kg and is 1.95 m tall.
