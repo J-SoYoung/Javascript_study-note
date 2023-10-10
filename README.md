@@ -26,3 +26,6 @@ Javascript의 동작 원리를 배우고, 내용을 정리하며 Javascript에 �
 
 자바스크립트의 함수를 공부합니다.<br>
 **😮challenge github =>** https://github.com/thdud2262/Javascript_study/blob/main/02-Fundamentals/Challenge.md
+- Object
+- Function
+- Array
