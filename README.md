@@ -29,3 +29,17 @@ Javascript의 동작 원리를 배우고, 내용을 정리하며 Javascript에 �
 - Object
 - Function
 - Array
+
+## *️⃣08-How Javascript Works behind the Scenes
+- 자바스크립트의 특징
+  - high level language
+  - 가비지 컬렉터
+  - 인터프리터와 컴파일러
+  - 동적언어
+  - 프로토타입 객체 기반 프로그래밍
+  - 멀티 패러다임 언어
+  - 일급 객체
+  - 싱글 스레드
+  - 이벤트루프와 비동기
+- Javascript Engine ( V8 )
+- Execution context and call stack
