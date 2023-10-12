@@ -31,6 +31,7 @@ Javascript의 동작 원리를 배우고, 내용을 정리하며 Javascript에 �
 - Array
 
 ## *️⃣08-How Javascript Works behind the Scenes
+**😮 https://github.com/thdud2262/Javascript_study/tree/main/08-How-Javascrip-work**
 - 자바스크립트의 특징
   - high level language
   - 가비지 컬렉터
