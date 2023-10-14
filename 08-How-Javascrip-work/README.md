@@ -15,9 +15,11 @@
 
 
 ### Javascript Engine ( V8 )
+▶️ https://www.notion.so/fun-blog/V8-7bb8d91af6c74e5bbab0ea2dd59c9f7b
 - Javascript 엔진에서 메인 스레드는 코드 컴파일이다. 컴파일 과정은 parser(해석) -> ignition(AST->bytecode변환) -> compiler(컴파일러-turbofan) -> runtime(실행 excution)의 순서로 이루어진다. V8(js-engine)이 parser에서 AST(Abstrict Syntax Tree -추상구문트리)를 생성하여 Javascript코드의 구조를 나타내면 ignition에서 AST를 bytecode로 변환시켜 코드를 실행시킨다. 이후 turbofan이 bytecode를 최적화 한뒤 compile(기계어 변환)하여 코드를 변환하고 마지막 런타임에 실행 코드를 넘겨준다.
 - javascript engine은 멀티스레드로 동작한다. 컴파일 작업 외에도 최적화나 가비지 컬렉터가 사용하는 스레드가 따로 있다. 다만 우리가 알고 있는 "Javascript는 싱글스레드다"라는 문장은 V8엔진이 사용하는 메인 스레드를 말하는 것이다. 즉, 우리가 생각해야 하는 부분은 코드의 실행과 관련한 컴파일 과정의 메인, 싱글 스레드를 생각하면 된다.
 - Javascript의 코드가 실행하는 부분인 런타임을 또 추가적으로 정리해 볼 수 있다.<br>
   런타임은 콜 스택, 메모리 힙, 콜백 큐, 이벤트루프, web API, 가비지 컬렉터로 이루어져 있다. 
   
 ### Execution context and call stack
+▶️ https://www.notion.so/fun-blog/67b2a555aef84a858a54a1c0a4a291bf
