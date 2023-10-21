@@ -1,16 +1,11 @@
 # JavsScript study
-<img src='/images/_main_logo.svg'>
-Jonas Schmedtmann강의를 듣고 공부한 내용입니다. <br>
-Javascript의 동작 원리를 배우고, 내용을 정리하며 Javascript에 대한 깊은 이해를 목적으로 하는 공부입니다. <br>
-**강의를 들은 후 Challenge를 통해 배운 직접 활용하는 시간**을 가졌습니다.
+<img src='/images/_main_logo.svg' width='100%' height='300px'>
+Jonas Schmedtmann강의, deepdive, 모던 자바스크립트 등의 책과 강의를 들으며 Javascript를 공부하였습니다.<br>
+Javascript의 동작 원리와 기능에 대해 정리하였습니다. <br>
 <br>
 
-## \*️⃣01-Fundamentals-Part-1
-
-자바스크립트의 기본 문법을 정리합니다.<br>
-**😮challenge github =>** https://github.com/thdud2262/Javascript_study/blob/main/01-Fundamentals-Part-1/Challenge.md
-
-
+# *️⃣Table of Contents
+- 자바스크립트의 기본 문법
 - Javascript :
   - high Level Language
   - OOP(Object Oriented Programming)
