@@ -1,16 +1,16 @@
-// function identify(){
-//   return this.name.toUpperCase();
-// }
-// function speak(){
-//   let greeting = `hello, i'm ${identify.call(this)}`
-//   console.log(greeting)
-// }
+function say(greeting){
+  console.log(`${greeting}, i'm ${this.name}`)
+  console.log(this)
+}
 
-// let me = { name :'so young'}
-// let you = {name : 'bin'}
+let me = { name :'so young'}
+let you = {name : 'bin'}
 
-// identify.call(me)
-// identify.call(you)
+say()
+say.apply(me, ['hello'])
+say.apply(you, ['good morning'])
+// say.call(me,'hello')
+// say.call(you,'good afternoon')
 
 
 // function foo(){
@@ -22,15 +22,15 @@
 // foo.call(obj)
 
 
-function baz(){
-  console.log('baz')
-  bar()
-}
-function bar(){
-  console.log('bar')
-  foo()
-}
-function foo(){
-  console.log('foo')
-}
-baz()
+// function baz(){
+//   console.log('baz')
+//   bar()
+// }
+// function bar(){
+//   console.log('bar')
+//   foo()
+// }
+// function foo(){
+//   console.log('foo')
+// }
+// baz()

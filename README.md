@@ -37,3 +37,62 @@ Javascript의 동작 원리와 기능에 대해 정리하였습니다. <br>
 ### Execution context and call stack
 ### hoisting
 ### this
+https://www.notion.so/fun-blog/This-1220d588586243229ce37b1b6632b558<br>
+this란 함수 호출 방식에 따라 값이 동적으로 결정되는 키워드다. <br>
+함수가 호출될 때 this는 함수가 속해있는 객체를 참조하고, 동시에 그 객체는 실행컨텍스트의 this바인딩 컴포넌트가 참조하는 객체가 된다.
+
+- this를 사용하는 이유<br>
+  this는 호출된 함수 내부의 객체를 참조할 수 있어서 해당 객체의 메서드나 속성에 접근할 수 있다. <br>
+  - this를 사용해 함수를 생성하면 함수를 여러 객체에서 메서드로 활용하여 재사용 할 수 있다.
+    ```jsx
+    function greet() {
+        console.log(`Hello, ${this.name}!`);
+    }
+    const person1 = {
+        name: 'Alice',
+        greet: greet //여러 객체에서 메서드로 활용하여 재사용
+    };
+    const person2 = {
+        name: 'Bob',
+        greet: greet //여러 객체에서 메서드로 활용하여 재사용
+    };
+    person1.greet(); // 출력: Hello, Alice!
+    person2.greet(); // 출력: Hello, Bob!
+    ```
+  - 메서드의 this는 메서드가 속한 객체의 속성을 참조할 수 있다
+    ```jsx
+    function greet() {
+        console.log(`Hello, ${this.name}!`);
+    }
+    const person1 = {
+        name: 'Alice',
+        greet: greet //여러 객체에서 메서드로 활용하여 재사용
+    };
+    const person2 = {
+        name: 'Bob',
+        greet: greet //여러 객체에서 메서드로 활용하여 재사용
+    };
+    person1.greet(); // 출력: Hello, Alice!
+    person2.greet(); // 출력: Hello, Bob!
+    ```
+  - 생성자 함수의 this는 새로 생성된 인스턴스를 정의할 수 있다
+    ```jsx
+    function Person(name, age) {
+    this.name = name;
+    this.age = age;
+    }
+
+    //새로 생성된 인스턴스를 정의할 수 있다
+    const person = new Person('Alice', 30);
+    console.log(person.name); // 출력: Alice, 
+    console.log(person.age);  // 출력: 30
+    ```
+  - 이벤트 핸들러에서 this는 이벤트 발생 요소를 참조할 수 있다
+    ```jsx
+    const button = document.getElementById('myButton');
+    button.addEventListener('click', function() {
+        console.log(this); 
+        // 출력: 클릭된 버튼 요소, <button id='myButton'>버튼</button>  
+        // 이벤트 발생 요소를 참조
+    });
+    ```
