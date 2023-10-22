@@ -6,7 +6,7 @@ Javascript의 동작 원리와 기능에 대해 정리하였습니다. <br>
 <br>
 
 # Table of Contents
-- <a href='https://github.com/thdud2262/Javascript_study/blob/main/README.md#javascript%EC%9D%98-%EA%B8%B0%EC%B4%88'>Javascript의 기초</a>
+- <a href='https://github.com/thdud2262/Javascript_study/blob/main/README.md#javascript%EC%9D%98-%EA%B8%B0%EC%B4%88'>What is Javascript?</a>
   - <a href='https://github.com/thdud2262/Javascript_study/blob/main/README.md#javascript%EB%9E%80'>What is Javascript?<br></a>
   - <a href='https://github.com/thdud2262/Javascript_study/blob/main/README.md#variable'>variable (변수)</a>
   - <a href='https://github.com/thdud2262/Javascript_study/blob/main/README.md#data-type'>data type (데이터 타입)</a>
@@ -19,8 +19,8 @@ Javascript의 동작 원리와 기능에 대해 정리하였습니다. <br>
   - <a href='https://github.com/thdud2262/Javascript_study/blob/main/README.md#execution-context-and-call-stack'> Execution context and call stack</a>
 <br>
 
-## ✅What is Javascript?
-### Javascript란
+## 😍What is Javascript?
+### What is Javascript?
 ### variable
 ### data type 
 ### operator
@@ -29,6 +29,6 @@ Javascript의 동작 원리와 기능에 대해 정리하였습니다. <br>
 ### Array
 <br>
 
-## ✅How Javascript works?
+## 😎How Javascript works?
 ### Javascript Engine ( V8 )
 ### Execution context and call stack
