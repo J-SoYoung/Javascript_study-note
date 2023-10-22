@@ -17,6 +17,9 @@ Javascript의 동작 원리와 기능에 대해 정리하였습니다. <br>
 - <a href='https://github.com/thdud2262/Javascript_study/blob/main/README.md#%How Javascript works?'>How Javascript works? </a>
   - <a href='https://github.com/thdud2262/Javascript_study/blob/main/README.md#javascript-engine--v8-'> Javascript Engine ( V8 )</a>
   - <a href='https://github.com/thdud2262/Javascript_study/blob/main/README.md#execution-context-and-call-stack'> Execution context and call stack</a>
+  - <a href='https://github.com/thdud2262/Javascript_study/blob/main/README.md#hoisting'>hoisting,TDZ</a>
+  - <a href='https://github.com/thdud2262/Javascript_study/blob/main/README.md#this'>This keyword</a>
+
 <br>
 
 ## 😍What is Javascript?
@@ -32,3 +35,5 @@ Javascript의 동작 원리와 기능에 대해 정리하였습니다. <br>
 ## 😎How Javascript works?
 ### Javascript Engine ( V8 )
 ### Execution context and call stack
+### hoisting
+### this
