@@ -36,16 +36,30 @@ export class Component{
 */
 function routerRender(routes){
 
-  // 접속할 때 해시 모드가 아니면(해시가 없으면) /#/로 리다이렉트!
+  // ## 접속할 때 해시 모드가 아니면(해시가 없으면) /#/로 리다이렉트!
   if (!location.hash) {
     history.replaceState(null, '', '/#/') // (상태, 제목, 주소)
   }
-
+  // routerView태그 가져옴
   const routerView = document.querySelector('router-view')
+
+  // 입력된 주소를 분해하겠다, 
   // http://localhost:8080/#/about?name=heropy
   const [ hash, queryString='' ] = location.hash.split('?')
 
-  // 2) 현재 라우트 정보를 찾아서 렌더링!
+  // ## 쿼리스트링을 객체로 변환해 히스토리의 상태에 저장!
+  // a=123&b=456 , ['a=123', 'b=456'], {a:'123', b='456'}
+    const query = queryString
+    .split('&')
+    .reduce((acc, cur) => {
+      const [key, value] = cur.split('=')
+      acc[key] = value
+      return acc
+    }, {})
+    console.log(query)
+  history.replaceState(query, '') // (상태, 제목)
+
+  // ## 현재 라우트 정보를 찾아서 렌더링!
   const currentRoute = routes.find(route => new RegExp(`${route.path}/?$`).test(hash))
   routerView.innerHTML = ''
   routerView.append(new currentRoute.component().el)  
